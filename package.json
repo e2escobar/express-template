@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxt/http": "latest",
+    "@nuxtjs/vercel-builder": "^0.22.1",
     "express": "latest",
     "nuxt": "latest"
   },
