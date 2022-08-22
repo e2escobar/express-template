@@ -52,10 +52,6 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-    // Doc: https://http.nuxtjs.org
-    '@nuxt/http'
-  ],
 
   /*
   ** For deployment you might want to edit host and port

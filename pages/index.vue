@@ -5,17 +5,7 @@
       <h1 class="title">
         nuxt-express
       </h1>
-      <div>
-        {{ test }}
-        <div class="links">
-          <a
-            href="/users"
-            class="button--green"
-          >
-            Users List
-          </a>
-        </div>
-      </div>
+      <div />
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -39,14 +29,7 @@
 </template>
 
 <script>
-export default {
-  async asyncData ({ $http }) {
-    const test = await $http.$get('/api/test')
-    return {
-      test
-    }
-  }
-}
+
 </script>
 
 <style scoped>
